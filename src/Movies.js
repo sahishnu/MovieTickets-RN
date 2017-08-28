@@ -54,11 +54,11 @@ export default class Movies extends Component {
     // Close popup
     this.closeMovie();
     // Navigate away to Confirmation route
-    navigate('Confirmation', {
-      name: 'confirmation',
-      // Generate random string
-      code: Math.random().toString(36).substring(6).toUpperCase(),
-    });
+    // navigate('Confirmation', {
+    //   name: 'confirmation',
+    //   // Generate random string
+    //   code: Math.random().toString(36).substring(6).toUpperCase(),
+    // });
   }
 }
 
