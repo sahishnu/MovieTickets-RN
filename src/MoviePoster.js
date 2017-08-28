@@ -15,10 +15,6 @@ const { width, height } = Dimensions.get('window');
 const cols = 3, rows = 3;
 
 export default class MoviePoster extends Component {
-  // static propTypes = {
-  //   movie: PropTypes.object.isRequired,
-  //   onOpen: PropTypes.func.isRequired,
-  // }
 
   render() {
     const { movie, movie: { title, genre, poster }, onOpen } = this.props;

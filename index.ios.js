@@ -3,11 +3,15 @@ import {
   StackNavigator
 } from 'react-navigation';
 import Movies from './src/Movies';
+import Confirmation from './src/Confirmation';
 
 
 const App = StackNavigator({
   Movies: {
     screen: Movies
+  },
+  Confirmation: {
+    screen: Confirmation
   }
 });
 
